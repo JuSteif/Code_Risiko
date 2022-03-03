@@ -1,0 +1,16 @@
+Ergebnis des Dice_Testsuit vom Thu Mar 03 14:56:16 2022
+
+Untereschranke: 1		Obereschranke: 6
+Wiederholungen: 100000
+Durchschnitt: 16666
+
+Zahl: 1 		Vorkommen:  16727
+Zahl: 2 		Vorkommen:  16659
+Zahl: 3 		Vorkommen:  16796
+Zahl: 4 		Vorkommen:  16854
+Zahl: 5 		Vorkommen:  16457
+Zahl: 6 		Vorkommen:  16507
+
+Geringste Haeufigkeit: 5		Haeufigkeit: 16457
+Groesste Haeufigkeit: 4		Haeufigkeit: 16854
+Differenz: 397
