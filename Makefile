@@ -5,15 +5,15 @@ CC = g++
 FLAGS = -Wall
 DEBUG = debug/
 
-DiceTestsuite: ${TESTSUITE}Dice/DiceTestsuite.exe
-	./${TESTSUITE}Dice/DiceTestsuite.exe
+DiceTestsuite: ${DEBUG}Executables/DiceTestsuite.exe
+	./${DEBUG}Executables/DiceTestsuite.exe
 
 
 
 
-${TESTSUITE}Dice/DiceTestsuite.exe: ${DEBUG}TestsuitDice.o ${DEBUG}Dice.o
+${DEBUG}Executables/DiceTestsuite.exe: ${DEBUG}TestsuitDice.o ${DEBUG}Dice.o
 	@echo "compile Testsuite"
-	${CC} ${FLAGS} -o ${TESTSUITE}Dice/DiceTestsuite.exe ${DEBUG}TestsuitDice.o ${DEBUG}Dice.o
+	${CC} ${FLAGS} -o ${DEBUG}Executables/DiceTestsuite.exe ${DEBUG}TestsuitDice.o ${DEBUG}Dice.o
 
 ${DEBUG}TestsuitDice.o: ${TESTSUITE}Dice/TestsuitDice.cpp ${INCLUDE}Dice.hpp
 	@echo "compile Testsuiteobject"
@@ -30,4 +30,13 @@ ${DEBUG}Dice.o: ${SRC}Dice.cpp ${INCLUDE}Dice.hpp
 	
 
 
-.PHONY: DiceTestsuite 
+
+
+
+clean:
+	rm ${DEBUG}*.*
+	rm ${DEBUG}Executables/*.*
+#	rm ${DEBUG}*
+#	rm ${DEBUG}Executables/*
+
+.PHONY: clean DiceTestsuite 

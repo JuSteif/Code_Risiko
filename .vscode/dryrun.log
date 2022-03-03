@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory 'c:/Users/seife/OneDrive/Desktop/Risiko/Code_Risiko'
+./Testsuite/Dice/DiceTestsuite.exe
+ 
+make: Leaving directory 'c:/Users/seife/OneDrive/Desktop/Risiko/Code_Risiko'
+ 

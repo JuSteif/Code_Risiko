@@ -1,0 +1,368 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Mar 03 13:38:32 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 1)
+SRC = src/
+# environment
+USERPROFILE = C:\Users\seife
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+QT5_DIR = C:\Qt\5.15.0\msvc2019_64
+# environment
+LOCALAPPDATA = C:\Users\seife\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-381bceff-4e68-4362-bfb4-cc07a3f507a6-sock
+# environment
+VSCODE_CWD = C:\Users\seife\AppData\Local\Programs\Microsoft VS Code
+# environment
+CARBON_MEM_DISABLE = 1
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+CUDA_PATH_V11_2 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17460_APHUSDCTATFRWUOA
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\seife\AppData\Roaming\Code\CachedData\f80445acd5a3dadef24aa209168452a3d97cc326
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\seife\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\seife\OneDrive
+# makefile
+CURDIR := c:/Users/seife/OneDrive/Desktop/Risiko/Code_Risiko
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 17460
+# environment
+CLION = C:\Program Files\JetBrains\CLion 2020.3.2\bin;
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 5)
+FLAGS = -Wall
+# automatic
+*F = $(notdir $*)
+# environment
+QT_QPA_PLATFORM_PLUGIN_PATH = C:\Qt\5.15.0\msvc2019_64\plugins\platforms
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# makefile (from 'Makefile', line 3)
+TESTSUITE = Testsuite/
+# environment
+PHPSTORM = C:\Program Files\JetBrains\PhpStorm 2020.3.2\bin;
+# environment
+VSCODE_NLS_CONFIG = {"locale":"de","availableLanguages":{"*":"de"},"_languagePackId":"1467f85883ce00c0d77fd1a5b57dda2a.de","_translationsConfigFile":"C:\\Users\\seife\\AppData\\Roaming\\Code\\clp\\1467f85883ce00c0d77fd1a5b57dda2a.de\\tcf.json","_cacheRoot":"C:\\Users\\seife\\AppData\\Roaming\\Code\\clp\\1467f85883ce00c0d77fd1a5b57dda2a.de","_resolvedLanguagePackCoreLocation":"C:\\Users\\seife\\AppData\\Roaming\\Code\\clp\\1467f85883ce00c0d77fd1a5b57dda2a.de\\f80445acd5a3dadef24aa209168452a3d97cc326","_corruptedFile":"C:\\Users\\seife\\AppData\\Roaming\\Code\\clp\\1467f85883ce00c0d77fd1a5b57dda2a.de\\corrupted.info","_languagePackSupport":true}
+# makefile (from 'Makefile', line 2)
+INCLUDE = include/
+# environment
+ONEDRIVECONSUMER = C:\Users\seife\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\seife
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WEBSTORM = C:\Program Files\JetBrains\WebStorm 2020.3.2\bin;
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.3.1\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSL-Win64\bin\;C:\opencv\x64\vc16\bin;C:\Program Files\CMake\bin;C:\ProgramData\chocolatey\lib\cunit\lib;C:\ProgramData\chocolatey\lib\tinyxml2\lib;C:\ProgramData\chocolatey\lib\log4cxx\lib;C:\Program Files\Graphviz\bin;C:\Program Files\dotnet\;C:\Users\seife\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\CLion 2020.3.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.2\bin;;C:\Program Files\JetBrains\WebStorm 2020.3.2\bin;;C:\Program Files\JetBrains\PhpStorm 2020.3.2\bin;;C:\Program Files\JetBrains\DataGrip 2020.3.2\bin;;C:\Users\seife\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\seife\.dotnet\tools
+# environment
+COMPUTERNAME = DESKTOP-2EF2PD6
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+OPENSSL_CONF = C:\Program Files\OpenSSL-Win64\bin\openssl.cfg
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132807691407172961
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.2\bin;
+# environment
+LOGONSERVER = \\DESKTOP-2EF2PD6
+# environment
+QSYS_ROOTDIR = C:\intelFPGA_lite\20.1\quartus\sopc_builder\bin
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = seife
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-2EF2PD6
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := DiceTestsuite
+# environment
+OPENCV_DIR = C:\opencv
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.2
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-2EF2PD6
+# environment
+NU 
+MBER_OF_PROCESSORS = 16
+# environment
+PUBLIC = C:\Users\Public
+# environment
+QUARTUS_ROOTDIR = C:\intelFPGA_lite\20.1\quartus
+# environment
+SOPC_KIT_NIOS2 = C:\intelFPGA_lite\20.1\nios2eds
+# environment
+APPDATA = C:\Users\seife\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+DATAGRIP = C:\Program Files\JetBrains\DataGrip 2020.3.2\bin;
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\seife\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\a0eb677151ddb10f2e2366b81313bf18-1.64.2-main-sock
+# environment
+NVCUDASAMPLES11_2_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.2
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 6)
+DEBUG = debug/
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 7100
+# makefile (from 'Makefile', line 4)
+CC = g++
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+# variable set hash-table stats:
+# Load=120/1024=12%, Rehash=0, Collisions=19/157=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/seife/OneDrive/Desktop/Risiko/Code_Risiko, mtime 1646310510): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+Testsuite/Dice/DiceTestsuite.exe: debug/TestsuitDice.o debug/Dice.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 15):
+	@echo "compile Testsuite"
+	${CC} ${FLAGS} -o ${TESTSUITE}Dice/DiceTestsuite.exe ${DEBUG}TestsuitDice.o ${DEBUG}Dice.o
+
+debug/Dice.o: src/Dice.cpp include/Dice.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	@echo "compile Diceobject"
+	${CC} ${FLAGS} -c ${SRC}Dice.cpp -I ${INCLUDE} -o ${DEBUG}Dice.o
+	
+
+# Not a target:
+Testsuite/Dice/TestsuitDice.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-03 13:38:06
+#  File has been updated.
+#  Successfully updated.
+
+DiceTestsuite: Testsuite/Dice/DiceTestsuite.exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 9):
+	./${TESTSUITE}Dice/DiceTestsuite.exe
+
+# Not a target:
+include/Dice.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+debug/TestsuitDice.o: Testsuite/Dice/TestsuitDice.cpp include/Dice.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	@echo "compile Testsuiteobject"
+	${CC} ${FLAGS} -c ${TESTSUITE}Dice/TestsuitDice.cpp -I ${INCLUDE} -o ${DEBUG}TestsuitDice.o
+
+# Not a target:
+src/Dice.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: DiceTestsuite
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table 
+ stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/33=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 19 / storage = 223 B / avg = 11 B
+# current buf: size = 8174 B / used = 223 B / count = 19 / avg = 11 B
+
+# strcache performance: lookups = 33 / hit rate = 42%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=0/33=0%
+# Finished Make data base on Thu Mar 03 13:38:32 2022
+
+ 
